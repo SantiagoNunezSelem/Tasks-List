@@ -1,0 +1,51 @@
+form {
+  width: 100%;
+  margin-bottom:15px;
+}
+
+input {
+  width: 287px;
+  height: 40px;
+  font-size: 17px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding:10px;
+  border:none; /* delete default border */
+  border: 0.3px solid #000000;
+  border-right: none;
+}
+
+input:focus {
+  outline:none;
+}
+
+button {
+  width:60px;
+  height: 40px;
+  font-size: 17px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: #618264;
+  border:none; /* delete default border */
+  border: 0.3px  solid #000000;
+}
+
+@media (max-width:470px) {
+  input {
+    width: 77%;
+  }
+
+  button {
+    width: 18%;
+  }
+}
+
+@media (max-width:320px) {
+  input {
+    width: 72%;
+  }
+
+  button {
+    width: 24%;
+  }
+}
