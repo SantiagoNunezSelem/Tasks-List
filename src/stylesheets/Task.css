@@ -6,6 +6,7 @@
   padding: 10px;
   border-radius: 10px;
   background-color: #1b1b32;
+  cursor: pointer;
 }
 
 .container-task.done-task {
@@ -15,6 +16,7 @@
 
 .text-task {
   width: 92%;
+  user-select: none;
   min-height:auto;
   overflow-wrap: break-word;
   text-align: left;
